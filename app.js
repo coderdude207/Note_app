@@ -1,6 +1,6 @@
 const yargs = require("yargs");
 const notes = require("./node.js");
-
+// beginning of the functions 
 yargs.command({
   command: "add",
   describe: "Add new note",
